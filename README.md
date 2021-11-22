@@ -2,7 +2,7 @@
 An evergreen list of creative constraints for modern research in physical science based on best practices and accumulated wisdom.
 
 1. **Use YYYYMMDD format when including dates in filenames.**  
-We often are in a situation where we want to sort a list of files in chronological order, usually to get to the newest or oldest file for example.  Including the date in the filename with `YYYMMDD` format will automatically achieve this goal, since operating systems sort alphanumerically.   The `MMDDYYYY` and `DDMMYYYY` formats will sort them out of date order, which is usually not useful.
+We often are in a situation where we want to sort a list of files in chronological order, usually to get to the newest or oldest file for example.  Including the date in the filename with `YYYYMMDD` format will automatically achieve this goal, since operating systems sort alphanumerically.   The `MMDDYYYY` and `DDMMYYYY` formats will sort them out of date order, which is usually not useful.
 
 
 2. **Use pandas' `read_csv` to read in `.csv` files in Python.**  
@@ -20,7 +20,7 @@ Each project should be its own standalone repository on GitHub.  A project is es
 Your project should have a distinctive one-to-three word code name, which will serve as its GitHub repository name.  The code name may also become used for its Python package name, environment variables, file basenames, and other places, so pick a name you are comfortable seeing a lot.  A creative constraint is to pick a category (song name, bird name, location) and scan through lists of them for something that tangentially resonates with your project.
 
 
-6.  **Your project should have `code/`, `data/`, `paper/`, and `notebooks/` directories.**.  
+6.  **Your project should have `code/`, `data/`, `paper/`, and `notebooks/` directories.**  
 The top-level directory of your project is what you see when you go to GitHub.com--- it should have a `README.md` file, a LICENSE, and typically three-to-six directories:`code/`, `data/`, `paper/`, and `notebooks/`.  Some projects may have, say, `models/` instead of `data/`, or `document/` instead of `paper/`, but the key idea is to organize the project into these different parts.  Documentation, configuration files, and other directories are common too.
 
 
