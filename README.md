@@ -24,20 +24,20 @@ Your project should have a distinctive one-to-three word code name, which will s
 The top-level directory of your project is what you see when you go to GitHub.com--- it should have a `README.md` file, a LICENSE, and typically three-to-six directories:`code/`, `data/`, `paper/`, and `notebooks/`.  Some projects may have, say, `models/` instead of `data/`, or `document/` instead of `paper/`, but the key idea is to organize the project into these different parts.  Documentation, configuration files, and other directories are common too.
 
 
-6. **Use GitHub Issues to track problems and goals for your research project.**  
+7. **Use GitHub Issues to track problems and goals for your research project.**  
 The GitHub Issue tracker may seem like overkill if it's just you working on a project.  But it has a few long-term benefits: it co-habitates with your project, so if you ever make the project public, the thought process and timeline behind it will become part of the public project history.   That history may be useful to others and is certainly useful to your future self.  It will make it possible for others to see (and you to remember) the rationale and internal monologue behind changes to the project.  If you are working with other people, the Issue tracker is even more valuable--- it houses conversations and deliberations about changes to the project and provides a searchable one-stop-shop for anyone added to the project later.  
 
 
-7. **Constantly use shift-tab within methods in Jupyter-notebooks.**  
+8. **Constantly use shift-tab within methods in Jupyter-notebooks.**  
 If you hit `shift`-`tab` inside the parentheses of a Python method in Jupyter Notebook, it shows you the method's [docstring](https://en.wikipedia.org/wiki/Docstring), a "how-to" guide of the method's inner workings.  Some other tools like VSCode show this too, but the one in Jupyter is great.  I simply cannot imagine coding without using this, it borders on life-changing.  There is also the ability to hit `[tab]` directly after an object's `.` to show what attributes and methods are available.  You should constantly be using these conveniences.
 
-8. **Backup your computer.**  
+9. **Backup your computer.**  
 You should have an automated way of backing up your computer.  Most universities and workplaces will offer a free service for backups nowadays.  If you do it right, you only have to set this up once and don't have to think about it again unless something goes wrong.
 
 
-9.  **Set up a git workflow to show you what has changed in your project, at a glance.**  
+10.  **Set up a git workflow to show you what has changed in your project, at a glance.**  
 One of the misconceptions of version control is that it is just for large projects that release monolithic downloadable versions of their Apps.  False!  One of the most useful aspects of version control comes even if you work alone.  It's the ability to see what's changed in your project at a glance, *while you are changing it*.  Imagine you are making a complicated change to a codebase.  You spend a while making changes and pause to reflect--- "Where did I leave off yesterday?  What did I just do for the last hour?  Where did I change that section for formatting the file output?".  Tools like git, [GitKraken](https://www.gitkraken.com), [SourceTree](https://www.sourcetreeapp.com), and others allow you to see the *diff* of your live, changed version.  You should set up your workflow to have this live view of your progress.  It's liberating!  It allows you to be more experimental, knowing you can roll back changes if they are deleterious.  It guides you to internalize and reflect on what you did, and summarize it in a sentence.
 
-10.  **Always run a paper through grammar-and-spell-checking.**  
+11.  **Always run a paper through grammar-and-spell-checking.**  
 It's free and easy!  Why not do it?
 
